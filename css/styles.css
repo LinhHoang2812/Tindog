@@ -1,0 +1,182 @@
+
+
+body {
+  font-family: 'Montserrat-Bold', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  font-family: 'Montserrat-Black',sans-serif;
+  font-weight: bold;
+
+}
+/* container */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* headings */
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  /* font-weight: bolder; */
+  color: white;
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* section */
+
+.color-section{
+  background-color: #ff4c68;
+  color: #ffff;
+
+}
+.white-section {
+  background-color: #ffff;
+}
+/* Style title section */
+#title {
+
+  text-align: left;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Style Navbar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right:18px;
+}
+.navbar-brand {
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Style Title section */
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+@media (max-width: 1024px){
+  .title-img {
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+
+  }
+#title {
+  text-align: center;
+
+}
+}
+
+
+
+/* Style Features section */
+#features{
+
+
+  position: relative;
+}
+
+
+
+.feat-icon {
+  font-size: 4rem;
+  color: #ef8172;
+  padding-bottom: 15px;
+}
+
+.feat-icon:hover {
+  color: #ff4c68;
+}
+.feat-text {
+  color:#8f8f8f;
+  padding: 0 5%;
+}
+.feat-description {
+  font-size: 1.5rem;
+  font-weight: bold !important;
+}
+
+/* Style Testimonials section */
+
+#testimonials{
+  background-color: #ef8172;
+
+}
+
+.testimonials-img{
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+/* Style Press section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+/* Style Pricing section */
+#pricing{
+  padding: 100px;
+}
+
+.price-col{
+  padding: 3% 2%;
+
+}
+
+/* Call to action style */
+
+
+/* footer styling */
+
+.icon-footer {
+  padding: 0 7px 30px;
+}
+
+.footer-text {
+  color:#8f8f8f;
+}
